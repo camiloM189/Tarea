@@ -24,7 +24,7 @@ body{
    transition: transform 1.2s ease;
  }
 
- .col-6{
+ /* .col-6{
      width: 49.7% !important;
    }
    .col-lg-6{
@@ -35,8 +35,8 @@ body{
    }
    .col-lg-4{
      width: 32.9999999%  !important;
-   }
-
+   } */
+  
    .video-background {
     position: fixed;
     top: 0;
@@ -62,3 +62,81 @@ body{
     background-color: rgba(0, 0, 0, 0.8); 
     z-index: 0; 
 }
+
+
+@media (min-width: 280px) {
+  .botones{
+    width: 100% ;
+   }
+}
+
+@media (min-width: 360px) {
+  .botones{
+    width: 100% ;
+   }
+}
+
+@media (min-width: 375px) {
+  .botones{
+    width: 100% ;
+   }
+}
+
+@media (min-width: 412px) {
+  .botones{
+    width: 100% ;
+   }
+}
+@media (min-width:540px){
+  .botones{
+    width: 100% ;
+   }
+ 
+}
+@media (min-width: 556px){
+  .botones{
+    width: 100% ;
+   }
+}
+@media (min-width: 576px) {
+  .botones{
+    width: 30% ;
+   }
+ 
+}
+
+@media (min-width: 768px) { 
+  .botones{
+    width: 30% ;
+   }
+}
+
+@media (min-width:912px){
+  
+}
+@media (min-width: 992px) { 
+  
+}
+@media (min-width:1024px){
+  .botones{
+    width: 30% !important;
+   }
+}
+
+@media (min-width: 1200px) {
+  .botones{
+    width: 30% !important;
+   }
+}
+@media (min-width: 1280px){
+  .botones{
+    width: 30% !important;
+   }
+}
+
+@media (min-width: 1400px) { 
+  .botones{
+    width: 30% !important;
+   }
+ 
+ }
